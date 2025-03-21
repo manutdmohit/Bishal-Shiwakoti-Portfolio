@@ -32,7 +32,7 @@ const Navbar = () => {
         {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
           <Link
             key={item}
-            href={`#${item.toLowerCase()}`}
+            href={`/${item.toLowerCase()}`}
             className="text-gray-800 dark:text-gray-300 hover:text-blue-500 transition duration-200  hover:scale-105"
           >
             {item}
@@ -78,7 +78,7 @@ const Navbar = () => {
           {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
             <Link
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`/${item.toLowerCase()}`}
               className="block text-gray-800 dark:text-gray-300 hover:text-blue-500 transition duration-300 ease-in-out hover:scale-105 py-2"
             >
               {item}
