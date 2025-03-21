@@ -44,16 +44,12 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.5 }}
       >
-        <Link href="#projects">
-          <Button variant="default" size="lg">
-            View My Work
-          </Button>
-        </Link>
-        <Link href="#contact">
-          <Button variant="outline" size="lg">
-            Contact Me
-          </Button>
-        </Link>
+        <Button variant="default" size="lg">
+          <Link href="#projects">View My Work</Link>
+        </Button>
+        <Button variant="outline" size="lg">
+          <Link href="#contact">Contact Me</Link>
+        </Button>
       </motion.div>
 
       {/* Optional Image */}
