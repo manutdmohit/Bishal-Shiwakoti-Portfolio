@@ -48,10 +48,10 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <p className="text-gray-700 dark:text-gray-300 text-lg">
-              I'm **Bishal Shiwakoti**, a **Network and Security Support
-              Engineer** at FirstWave ASX. I specialize in securing network
-              infrastructures, implementing cybersecurity measures, and ensuring
-              robust email security using **Cisco ESA**.
+              I'm Bishal Shiwakoti, a Network and Security Support Engineer at
+              FirstWave ASX. I specialize in securing network infrastructures,
+              implementing cybersecurity measures, and ensuring robust email
+              security using Cisco ESA.
             </p>
 
             {/* Skills Section */}

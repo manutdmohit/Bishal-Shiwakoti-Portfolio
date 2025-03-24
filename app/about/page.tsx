@@ -56,41 +56,39 @@ const About = () => {
             <p className="text-gray-700 dark:text-gray-300 text-lg">
               In today's fast-paced technological landscape, I am deeply
               fascinated by the dynamic intersection of connectivity and
-              security. My journey as a **Network and Security Support
-              Engineer** has allowed me to explore this passion extensively.
-              With a **Bachelor's degree in Electronics and Communications
-              Engineering** as my foundation, I have dedicated over **four
-              years** to mastering IT and cybersecurity—constantly pushing
-              myself to learn and adapt to new challenges.
+              security. My journey as a Network and Security Support Engineer
+              has allowed me to explore this passion extensively. With a
+              Bachelor's degree in Electronics and Communications Engineering as
+              my foundation, I have dedicated over four years to mastering IT
+              and cybersecurity—constantly pushing myself to learn and adapt to
+              new challenges.
             </p>
             <p className="text-gray-700 dark:text-gray-300 text-lg">
-              One of my most impactful projects involved implementing **advanced
-              email security measures** using **Cisco ESA**, which resulted in a
-              **30% reduction in phishing incidents** across client networks
-              within just six months. Tackling such challenges and finding
-              effective solutions is what drives my enthusiasm for
-              cybersecurity.
+              One of my most impactful projects involved implementing advanced
+              email security measures using Cisco ESA, which resulted in a 30%
+              reduction in phishing incidents across client networks within just
+              six months. Tackling such challenges and finding effective
+              solutions is what drives my enthusiasm for cybersecurity.
             </p>
             <p className="text-gray-700 dark:text-gray-300 text-lg">
-              Before stepping into this role, I worked as an **Information
-              Technology Support Officer** at **Bailey Nelson**, where I
-              enhanced my troubleshooting expertise while providing direct user
-              support. Additionally, my experience as an **Assistant Department
-              Manager** at **Woolworths Supermarkets** strengthened my
-              leadership and teamwork skills—qualities that continue to shape my
-              approach in the cybersecurity domain.
+              Before stepping into this role, I worked as an Information
+              Technology Support Officer at Bailey Nelson, where I enhanced my
+              troubleshooting expertise while providing direct user support.
+              Additionally, my experience as an Assistant Department Manager at
+              Woolworths Supermarkets strengthened my leadership and teamwork
+              skills—qualities that continue to shape my approach in the
+              cybersecurity domain.
             </p>
             <p className="text-gray-700 dark:text-gray-300 text-lg">
               Beyond work, I am committed to continuous learning. Currently, I
-              am expanding my skill set through **SOC analyst training on
-              TryHackMe**, diving deeper into cybersecurity analysis and threat
+              am expanding my skill set through SOC analyst training on
+              TryHackMe, diving deeper into cybersecurity analysis and threat
               detection. The ever-evolving nature of cybersecurity keeps me
               motivated—there is always something new to explore and master.
             </p>
             <p className="text-gray-700 dark:text-gray-300 text-lg font-semibold">
-              If you're interested in discussing **network security strategies**
-              or potential collaborations, feel free to connect with me via
-              email!
+              If you're interested in discussing network security strategies or
+              potential collaborations, feel free to connect with me via email!
             </p>
 
             {/* Skills Section */}
