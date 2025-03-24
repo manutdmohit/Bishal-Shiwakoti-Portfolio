@@ -51,7 +51,7 @@ const Collaboration = () => {
 
         {/* Message */}
         <motion.p
-          className="text-lg text-gray-700 dark:text-gray-300 mt-4"
+          className="text-lg text-gray-700 dark:text-gray-300 mt-4 text-center"
           variants={fadeInUp}
           transition={{ delay: 0.4 }}
         >
