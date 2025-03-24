@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative flex flex-col md:flex-row items-center justify-center py-20 px-4 md:px-8 overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 mt-4">
         <Image
           src="/network-bg.jpg"
           alt="Network Background"
@@ -59,10 +59,10 @@ const Hero = () => {
           transition={{ delay: 0.6, duration: 0.5 }}
         >
           <Button variant="default" size="lg">
-            <Link href="#projects">View My Work</Link>
+            <Link href="/projects">View My Work</Link>
           </Button>
           <Button variant="outline" size="lg">
-            <Link href="#contact">Contact Me</Link>
+            <Link href="/contact">Contact Me</Link>
           </Button>
         </motion.div>
       </div>
