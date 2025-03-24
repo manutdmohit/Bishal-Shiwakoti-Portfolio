@@ -54,7 +54,7 @@ const Footer = () => {
           {/* Social Media Icons */}
           <div className="mt-6 md:mt-0 flex space-x-4">
             <Link
-              href="https://www.facebook.com/bishal.cwakoti"
+              href="https://www.facebook.com/profile.php?id=61574213761720"
               target="_blank"
             >
               <Facebook className="h-5 w-5 text-gray-400 hover:text-white" />
