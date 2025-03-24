@@ -29,7 +29,7 @@ const About = () => {
         </motion.h2>
 
         {/* About Content */}
-        <div className="mt-10 flex flex-col md:flex-row  gap-10">
+        <div className="mt-10 flex flex-col md:flex-row items-center md:items-start gap-10">
           {/* Profile Image */}
           <motion.div
             className="relative w-48 h-48 md:w-56 md:h-56"
