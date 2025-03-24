@@ -39,12 +39,17 @@ const ContactPage = () => {
     toast.success('Message Sent Successfully!', {
       description: 'I will get back to you soon.',
       style: {
-        background: 'green',
+        background: 'linear-gradient(to right, #66bb6a, #43a047)', // Gradient for a modern look
         color: '#fff',
-        borderRadius: '5px',
-        padding: '10px',
+        borderRadius: '8px', // Slightly more rounded corners
+        padding: '16px 20px', // Increased padding for better visual spacing
         fontSize: '16px',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Subtle shadow for depth
+        border: '1px solid #43a047', // Add a subtle border to match the darker end of the gradient
       },
+      icon: '✅', //Add a checkmark for clarity.
+      duration: 4000, //Adjust the display time as needed.
+      position: 'top-right', // Adjust the position as needed.
     });
 
     reset();
