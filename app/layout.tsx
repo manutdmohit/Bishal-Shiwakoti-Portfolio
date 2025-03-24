@@ -6,6 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import Navbar from '@/components/Navbar';
 import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/sonner';
+import Footer from '@/components/footer';
 
 // Load the Inter font with subsets and variable for CSS variables
 const inter = Inter({
@@ -40,6 +41,7 @@ export default function RootLayout({
         >
           <Navbar />
           <main>{children}</main>
+          <Footer />
           <Toaster />
         </ThemeProvider>
       </body>
