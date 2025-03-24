@@ -57,7 +57,7 @@ const ContactPage = () => {
 
   return (
     <section className="py-16 px-6 md:px-8 flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900">
-      <Card className="max-w-lg w-full shadow-lg dark:bg-gray-800 mt-5">
+      <Card className="max-w-lg w-full shadow-lg dark:bg-gray-800 mt-10">
         <CardContent className="p-8">
           <motion.h2
             className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white text-center"

@@ -17,7 +17,7 @@ const About = () => {
       id="about"
       className="py-16 px-4 md:px-8 bg-white dark:bg-gray-900"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto my-4">
         {/* Section Title */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white text-center"

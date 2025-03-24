@@ -53,16 +53,19 @@ const Footer = () => {
 
           {/* Social Media Icons */}
           <div className="mt-6 md:mt-0 flex space-x-4">
-            <Link href="https://facebook.com" target="_blank">
+            <Link
+              href="https://www.facebook.com/bishal.cwakoti"
+              target="_blank"
+            >
               <Facebook className="h-5 w-5 text-gray-400 hover:text-white" />
             </Link>
-            <Link href="https://twitter.com" target="_blank">
-              <Twitter className="h-5 w-5 text-gray-400 hover:text-white" />
-            </Link>
-            <Link href="https://instagram.com" target="_blank">
+            <Link href="https://www.instagram.com/bcwakoti" target="_blank">
               <Instagram className="h-5 w-5 text-gray-400 hover:text-white" />
             </Link>
-            <Link href="https://linkedin.com" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/bishalshiwakoti/"
+              target="_blank"
+            >
               <Linkedin className="h-5 w-5 text-gray-400 hover:text-white" />
             </Link>
           </div>
